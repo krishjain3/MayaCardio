@@ -1,0 +1,184 @@
+"""
+Cloud service ingestion API and processing engine conforming to Section 2, 3, 4 of the MayaCardio assessment.
+Can be deployed to any free cloud provider (e.g., Render, Railway, Fly.io, or Linux VM).
+"""
+
+import os
+import time
+import json
+import logging
+from typing import Optional
+from flask import Flask, request, jsonify, Response, stream_with_context
+from flask_cors import CORS
+
+from pipeline.storage import Storage, ConflictingSampleError
+from pipeline.processing import compute_window_result
+from pipeline.models import Sample, LossRecord, WindowResult
+
+logger = logging.getLogger("mayacardio.cloud")
+
+app = Flask(__name__)
+CORS(app)
+
+CLOUD_DB_PATH = os.environ.get("CLOUD_DB_PATH", "data/cloud.db")
+CLOUD_API_KEY = os.environ.get("CLOUD_API_KEY", "")
+storage = Storage(CLOUD_DB_PATH, synchronous="NORMAL")
+
+
+def check_auth() -> bool:
+    if not CLOUD_API_KEY:
+        return True
+    auth_header = request.headers.get("Authorization", "")
+    api_key_header = request.headers.get("X-API-Key", "")
+    if api_key_header == CLOUD_API_KEY:
+        return True
+    if auth_header.startswith("Bearer ") and auth_header[7:] == CLOUD_API_KEY:
+        return True
+    return False
+
+
+@app.route("/api/v1/health", methods=["GET"])
+def health():
+    return jsonify({
+        "status": "ok",
+        "service": "mayacardio-cloud",
+        "timestamp": time.time()
+    }), 200
+
+
+@app.route("/api/v1/status", methods=["GET"])
+def status():
+    if not check_auth():
+        return jsonify({"error": "Unauthorized"}), 401
+
+    session_id = request.args.get("session_id")
+    if not session_id:
+        session_id = storage.get_latest_session_id()
+
+    if not session_id:
+        return jsonify({
+            "status": "ok",
+            "session_id": None,
+            "samples_saved": 0,
+            "latest_window": None
+        }), 200
+
+    saved, _, _ = storage.get_counts(session_id)
+    max_idx = storage.get_max_sample_index(session_id)
+    latest_win = (max_idx // 400) if max_idx >= 0 else None
+
+    return jsonify({
+        "status": "ok",
+        "session_id": session_id,
+        "samples_saved": saved,
+        "max_sample_index": max_idx,
+        "latest_window": latest_win
+    }), 200
+
+
+@app.route("/api/v1/ingest", methods=["POST"])
+def ingest():
+    if not check_auth():
+        return jsonify({"error": "Unauthorized"}), 401
+
+    payload = request.get_json(silent=True)
+    if not payload:
+        return jsonify({"error": "Invalid JSON body"}), 400
+
+    session_id = payload.get("session_id")
+    sensor = payload.get("sensor")
+    first_index = payload.get("first_index", 0)
+    samples = payload.get("samples", [])
+    losses = payload.get("losses", [])
+    mode = payload.get("mode", "online")
+
+    if not session_id or sensor not in (1, 2):
+        return jsonify({"error": "Missing or invalid session_id or sensor"}), 400
+
+    # 1. Insert losses if present
+    if losses:
+        storage.insert_loss_records(session_id, sensor, losses, uploaded=1)
+
+    # 2. Insert samples if present
+    inserted_cnt = 0
+    synced_up_to = first_index - 1
+    if samples:
+        try:
+            inserted_cnt = storage.insert_samples_batch(session_id, sensor, first_index, samples)
+            synced_up_to = first_index + len(samples) - 1
+        except ConflictingSampleError as e:
+            logger.error(f"Integrity conflict: {e}")
+            return jsonify({"error": "Integrity conflict", "details": str(e)}), 409
+
+    # 3. If online mode: trigger online processing for completed windows
+    calculated_windows = []
+    if mode == "online" and samples:
+        # Determine affected windows
+        min_win = first_index // 400
+        max_win = synced_up_to // 400
+        for win in range(min_win, max_win + 1):
+            # Process window using exact same logic
+            res = compute_window_result(storage, session_id, win, mode="online")
+            storage.save_window_result(res)
+            calculated_windows.append(win)
+
+    return jsonify({
+        "status": "ok",
+        "session_id": session_id,
+        "sensor": sensor,
+        "inserted": inserted_cnt,
+        "synced_up_to": synced_up_to,
+        "calculated_windows": calculated_windows
+    }), 200
+
+
+@app.route("/api/v1/export", methods=["GET"])
+def export():
+    if not check_auth():
+        return jsonify({"error": "Unauthorized"}), 401
+
+    session_id = request.args.get("session_id")
+    if not session_id:
+        session_id = storage.get_latest_session_id()
+
+    if not session_id:
+        return Response("", mimetype="application/x-ndjson")
+
+    def generate():
+        for line in storage.export_data(session_id):
+            yield line + "\n"
+
+    return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
+
+
+@app.route("/api/v1/results", methods=["GET"])
+def results():
+    if not check_auth():
+        return jsonify({"error": "Unauthorized"}), 401
+
+    session_id = request.args.get("session_id")
+    if not session_id:
+        session_id = storage.get_latest_session_id()
+
+    if not session_id:
+        return Response("", mimetype="application/x-ndjson")
+
+    res_list = storage.get_window_results(session_id)
+
+    def generate():
+        for r in res_list:
+            yield r.to_ndjson() + "\n"
+
+    return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
+
+
+def create_app(db_path: Optional[str] = None):
+    global storage
+    if db_path:
+        storage = Storage(db_path, synchronous="NORMAL")
+    return app
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    app.run(host="0.0.0.0", port=port)

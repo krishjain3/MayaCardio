@@ -1,0 +1,38 @@
+[
+  {
+    "test": "Corrupt CRC-32 Injection",
+    "criterion": "Integrity / Section 6.2 & 6.3",
+    "result": "PASSED",
+    "details": "Corrupt CRC response successfully rejected, subsequent re-read succeeded."
+  },
+  {
+    "test": "Mock Session Restart Handling",
+    "criterion": "Criterion 2 (Section 6.3)",
+    "result": "PASSED",
+    "details": "Unread samples of previous session cleanly recorded with to_index: null."
+  },
+  {
+    "test": "Network Cut & Catch-Up Sync",
+    "criterion": "Criteria 4, 5, 6",
+    "result": "PASSED",
+    "details": "Switched to offline within 2 failed pings, calculated offline windows, caught up 100% of backlog with 0 losses upon reconnection."
+  },
+  {
+    "test": "Process Kill & Sudden Power Cut Recovery",
+    "criterion": "Criterion 3",
+    "result": "PASSED",
+    "details": "Committed transactions survived crash via SQLite WAL + FULL sync. Database opened cleanly without corruption."
+  },
+  {
+    "test": "Ground Truth Ramp Verification",
+    "criterion": "Criteria 1 & 2",
+    "result": "PASSED",
+    "details": "Export verified: 0 duplicates, 0 value mismatches, 0 silent losses across 1092 samples."
+  },
+  {
+    "test": "Ground Truth Signal Verification",
+    "criterion": "Criteria 1, 2, 7",
+    "result": "PASSED",
+    "details": "Export verified: 0 duplicates, 0 value mismatches, 0 silent losses across 1123 samples."
+  }
+]

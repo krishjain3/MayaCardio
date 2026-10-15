@@ -1,0 +1,23 @@
+[Unit]
+Description=MayaCardio Bedside Biosignal Pipeline Service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/MayaCardio-Software-Systems-Engineer
+EnvironmentFile=/home/pi/MayaCardio-Software-Systems-Engineer/.env
+ExecStart=/usr/bin/python3 -m pipeline.cli run --db data/device.db
+Restart=always
+RestartSec=3
+
+# Resource limitations conforming to assessment specs (4 CPU cores, 2 GB RAM max)
+CPUQuota=400%
+MemoryMax=2G
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

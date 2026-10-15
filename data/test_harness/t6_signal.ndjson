@@ -1,0 +1,1123 @@
+{"sensor": 1, "index": 0, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 1, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 2, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 3, "values": [602, 1003, 1304]}
+{"sensor": 1, "index": 4, "values": [603, 1005, 1306]}
+{"sensor": 1, "index": 5, "values": [605, 1008, 1310]}
+{"sensor": 1, "index": 6, "values": [608, 1013, 1317]}
+{"sensor": 1, "index": 7, "values": [611, 1019, 1325]}
+{"sensor": 1, "index": 8, "values": [616, 1027, 1335]}
+{"sensor": 1, "index": 9, "values": [622, 1037, 1348]}
+{"sensor": 1, "index": 10, "values": [629, 1049, 1364]}
+{"sensor": 1, "index": 11, "values": [638, 1064, 1383]}
+{"sensor": 1, "index": 12, "values": [649, 1082, 1407]}
+{"sensor": 1, "index": 13, "values": [661, 1101, 1431]}
+{"sensor": 1, "index": 14, "values": [673, 1121, 1457]}
+{"sensor": 1, "index": 15, "values": [685, 1141, 1483]}
+{"sensor": 1, "index": 16, "values": [696, 1160, 1508]}
+{"sensor": 1, "index": 17, "values": [706, 1176, 1529]}
+{"sensor": 1, "index": 18, "values": [713, 1189, 1546]}
+{"sensor": 1, "index": 19, "values": [718, 1197, 1556]}
+{"sensor": 1, "index": 20, "values": [720, 1200, 1560]}
+{"sensor": 1, "index": 21, "values": [718, 1197, 1556]}
+{"sensor": 1, "index": 22, "values": [713, 1189, 1546]}
+{"sensor": 1, "index": 23, "values": [706, 1176, 1529]}
+{"sensor": 1, "index": 24, "values": [696, 1160, 1508]}
+{"sensor": 1, "index": 25, "values": [685, 1141, 1483]}
+{"sensor": 1, "index": 26, "values": [673, 1121, 1457]}
+{"sensor": 1, "index": 27, "values": [661, 1101, 1431]}
+{"sensor": 1, "index": 28, "values": [649, 1082, 1407]}
+{"sensor": 1, "index": 29, "values": [638, 1064, 1383]}
+{"sensor": 1, "index": 30, "values": [629, 1049, 1364]}
+{"sensor": 1, "index": 31, "values": [622, 1037, 1348]}
+{"sensor": 1, "index": 32, "values": [616, 1027, 1335]}
+{"sensor": 1, "index": 33, "values": [611, 1019, 1325]}
+{"sensor": 1, "index": 34, "values": [608, 1013, 1317]}
+{"sensor": 1, "index": 35, "values": [605, 1008, 1310]}
+{"sensor": 1, "index": 36, "values": [603, 1005, 1306]}
+{"sensor": 1, "index": 37, "values": [602, 1003, 1304]}
+{"sensor": 1, "index": 38, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 39, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 40, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 41, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 42, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 43, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 44, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 45, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 46, "values": [634, 1057, 1374]}
+{"sensor": 1, "index": 47, "values": [762, 1270, 1651]}
+{"sensor": 1, "index": 48, "values": [1093, 1822, 2369]}
+{"sensor": 1, "index": 49, "values": [1561, 2601, 3381]}
+{"sensor": 1, "index": 50, "values": [3600, 6000, 7800]}
+{"sensor": 1, "index": 51, "values": [1561, 2601, 3381]}
+{"sensor": 1, "index": 52, "values": [1093, 1822, 2369]}
+{"sensor": 1, "index": 53, "values": [762, 1270, 1651]}
+{"sensor": 1, "index": 54, "values": [634, 1057, 1374]}
+{"sensor": 1, "index": 55, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 56, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 57, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 58, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 59, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 60, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 61, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 62, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 63, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 64, "values": [602, 1003, 1304]}
+{"sensor": 1, "index": 65, "values": [602, 1004, 1305]}
+{"sensor": 1, "index": 66, "values": [603, 1005, 1306]}
+{"sensor": 1, "index": 67, "values": [604, 1006, 1308]}
+{"sensor": 1, "index": 68, "values": [604, 1007, 1309]}
+{"sensor": 1, "index": 69, "values": [605, 1009, 1312]}
+{"sensor": 1, "index": 70, "values": [607, 1011, 1314]}
+{"sensor": 1, "index": 71, "values": [608, 1013, 1317]}
+{"sensor": 1, "index": 72, "values": [610, 1016, 1321]}
+{"sensor": 1, "index": 73, "values": [611, 1019, 1325]}
+{"sensor": 1, "index": 74, "values": [613, 1022, 1329]}
+{"sensor": 1, "index": 75, "values": [616, 1026, 1334]}
+{"sensor": 1, "index": 76, "values": [618, 1030, 1339]}
+{"sensor": 1, "index": 77, "values": [621, 1035, 1346]}
+{"sensor": 1, "index": 78, "values": [625, 1041, 1353]}
+{"sensor": 1, "index": 79, "values": [628, 1047, 1361]}
+{"sensor": 1, "index": 80, "values": [632, 1054, 1370]}
+{"sensor": 1, "index": 81, "values": [637, 1061, 1379]}
+{"sensor": 1, "index": 82, "values": [642, 1070, 1391]}
+{"sensor": 1, "index": 83, "values": [647, 1079, 1403]}
+{"sensor": 1, "index": 84, "values": [653, 1089, 1416]}
+{"sensor": 1, "index": 85, "values": [659, 1099, 1429]}
+{"sensor": 1, "index": 86, "values": [667, 1111, 1444]}
+{"sensor": 1, "index": 87, "values": [674, 1123, 1460]}
+{"sensor": 1, "index": 88, "values": [682, 1136, 1477]}
+{"sensor": 1, "index": 89, "values": [690, 1150, 1495]}
+{"sensor": 1, "index": 90, "values": [698, 1164, 1513]}
+{"sensor": 1, "index": 91, "values": [707, 1179, 1533]}
+{"sensor": 1, "index": 92, "values": [716, 1194, 1552]}
+{"sensor": 1, "index": 93, "values": [726, 1210, 1573]}
+{"sensor": 1, "index": 94, "values": [736, 1226, 1594]}
+{"sensor": 1, "index": 95, "values": [745, 1242, 1615]}
+{"sensor": 1, "index": 96, "values": [755, 1258, 1635]}
+{"sensor": 1, "index": 97, "values": [764, 1274, 1656]}
+{"sensor": 1, "index": 98, "values": [774, 1290, 1677]}
+{"sensor": 1, "index": 99, "values": [783, 1305, 1696]}
+{"sensor": 1, "index": 100, "values": [792, 1320, 1716]}
+{"sensor": 1, "index": 101, "values": [800, 1334, 1734]}
+{"sensor": 1, "index": 102, "values": [808, 1346, 1750]}
+{"sensor": 1, "index": 103, "values": [815, 1358, 1765]}
+{"sensor": 1, "index": 104, "values": [821, 1369, 1780]}
+{"sensor": 1, "index": 105, "values": [827, 1378, 1791]}
+{"sensor": 1, "index": 106, "values": [832, 1386, 1802]}
+{"sensor": 1, "index": 107, "values": [835, 1392, 1810]}
+{"sensor": 1, "index": 108, "values": [838, 1396, 1815]}
+{"sensor": 1, "index": 109, "values": [839, 1399, 1819]}
+{"sensor": 1, "index": 110, "values": [840, 1400, 1820]}
+{"sensor": 1, "index": 111, "values": [839, 1399, 1819]}
+{"sensor": 1, "index": 112, "values": [838, 1396, 1815]}
+{"sensor": 1, "index": 113, "values": [835, 1392, 1810]}
+{"sensor": 1, "index": 114, "values": [832, 1386, 1802]}
+{"sensor": 1, "index": 115, "values": [827, 1378, 1791]}
+{"sensor": 1, "index": 116, "values": [821, 1369, 1780]}
+{"sensor": 1, "index": 117, "values": [815, 1358, 1765]}
+{"sensor": 1, "index": 118, "values": [808, 1346, 1750]}
+{"sensor": 1, "index": 119, "values": [800, 1334, 1734]}
+{"sensor": 1, "index": 120, "values": [792, 1320, 1716]}
+{"sensor": 1, "index": 121, "values": [783, 1305, 1696]}
+{"sensor": 1, "index": 122, "values": [774, 1290, 1677]}
+{"sensor": 1, "index": 123, "values": [764, 1274, 1656]}
+{"sensor": 1, "index": 124, "values": [755, 1258, 1635]}
+{"sensor": 1, "index": 125, "values": [745, 1242, 1615]}
+{"sensor": 1, "index": 126, "values": [736, 1226, 1594]}
+{"sensor": 1, "index": 127, "values": [726, 1210, 1573]}
+{"sensor": 1, "index": 128, "values": [716, 1194, 1552]}
+{"sensor": 1, "index": 129, "values": [707, 1179, 1533]}
+{"sensor": 1, "index": 130, "values": [698, 1164, 1513]}
+{"sensor": 1, "index": 131, "values": [690, 1150, 1495]}
+{"sensor": 1, "index": 132, "values": [682, 1136, 1477]}
+{"sensor": 1, "index": 133, "values": [674, 1123, 1460]}
+{"sensor": 1, "index": 134, "values": [667, 1111, 1444]}
+{"sensor": 1, "index": 135, "values": [659, 1099, 1429]}
+{"sensor": 1, "index": 136, "values": [653, 1089, 1416]}
+{"sensor": 1, "index": 137, "values": [647, 1079, 1403]}
+{"sensor": 1, "index": 138, "values": [642, 1070, 1391]}
+{"sensor": 1, "index": 139, "values": [637, 1061, 1379]}
+{"sensor": 1, "index": 140, "values": [632, 1054, 1370]}
+{"sensor": 1, "index": 141, "values": [628, 1047, 1361]}
+{"sensor": 1, "index": 142, "values": [625, 1041, 1353]}
+{"sensor": 1, "index": 143, "values": [621, 1035, 1346]}
+{"sensor": 1, "index": 144, "values": [618, 1030, 1339]}
+{"sensor": 1, "index": 145, "values": [616, 1026, 1334]}
+{"sensor": 1, "index": 146, "values": [613, 1022, 1329]}
+{"sensor": 1, "index": 147, "values": [611, 1019, 1325]}
+{"sensor": 1, "index": 148, "values": [610, 1016, 1321]}
+{"sensor": 1, "index": 149, "values": [608, 1013, 1317]}
+{"sensor": 1, "index": 150, "values": [607, 1011, 1314]}
+{"sensor": 1, "index": 151, "values": [605, 1009, 1312]}
+{"sensor": 1, "index": 152, "values": [604, 1007, 1309]}
+{"sensor": 1, "index": 153, "values": [604, 1006, 1308]}
+{"sensor": 1, "index": 154, "values": [603, 1005, 1306]}
+{"sensor": 1, "index": 155, "values": [602, 1004, 1305]}
+{"sensor": 1, "index": 156, "values": [602, 1003, 1304]}
+{"sensor": 1, "index": 157, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 158, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 159, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 160, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 161, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 162, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 163, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 164, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 165, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 166, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 167, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 168, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 169, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 170, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 171, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 172, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 173, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 174, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 175, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 176, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 177, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 178, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 179, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 180, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 181, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 182, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 183, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 184, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 185, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 186, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 187, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 188, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 189, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 190, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 191, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 192, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 193, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 194, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 195, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 196, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 197, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 198, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 199, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 200, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 201, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 202, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 203, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 204, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 205, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 206, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 207, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 208, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 209, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 210, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 211, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 212, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 213, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 214, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 215, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 216, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 217, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 218, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 219, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 220, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 221, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 222, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 223, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 224, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 225, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 226, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 227, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 228, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 229, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 230, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 231, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 232, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 233, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 234, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 235, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 236, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 237, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 238, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 239, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 240, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 241, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 242, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 243, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 244, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 245, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 246, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 247, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 248, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 249, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 250, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 251, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 252, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 253, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 254, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 255, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 256, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 257, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 258, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 259, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 260, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 261, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 262, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 263, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 264, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 265, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 266, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 267, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 268, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 269, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 270, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 271, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 272, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 273, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 274, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 275, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 276, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 277, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 278, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 279, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 280, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 281, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 282, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 283, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 284, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 285, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 286, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 287, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 288, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 289, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 290, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 291, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 292, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 293, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 294, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 295, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 296, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 297, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 298, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 299, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 300, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 301, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 302, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 303, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 304, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 305, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 306, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 307, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 308, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 309, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 310, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 311, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 312, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 313, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 314, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 315, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 316, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 317, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 318, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 319, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 320, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 321, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 322, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 323, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 324, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 325, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 326, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 327, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 328, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 329, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 330, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 331, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 332, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 333, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 334, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 335, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 336, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 337, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 338, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 339, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 340, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 341, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 342, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 343, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 344, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 345, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 346, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 347, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 348, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 349, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 350, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 351, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 352, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 353, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 354, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 355, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 356, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 357, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 358, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 359, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 360, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 361, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 362, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 363, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 364, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 365, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 366, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 367, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 368, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 369, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 370, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 371, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 372, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 373, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 374, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 375, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 376, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 377, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 378, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 379, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 380, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 381, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 382, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 383, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 384, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 385, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 386, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 387, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 388, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 389, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 390, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 391, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 392, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 393, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 394, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 395, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 396, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 397, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 398, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 399, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 400, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 401, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 402, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 403, "values": [602, 1003, 1304]}
+{"sensor": 1, "index": 404, "values": [603, 1005, 1306]}
+{"sensor": 1, "index": 405, "values": [605, 1008, 1310]}
+{"sensor": 1, "index": 406, "values": [608, 1013, 1317]}
+{"sensor": 1, "index": 407, "values": [611, 1019, 1325]}
+{"sensor": 1, "index": 408, "values": [616, 1027, 1335]}
+{"sensor": 1, "index": 409, "values": [622, 1037, 1348]}
+{"sensor": 1, "index": 410, "values": [629, 1049, 1364]}
+{"sensor": 1, "index": 411, "values": [638, 1064, 1383]}
+{"sensor": 1, "index": 412, "values": [649, 1082, 1407]}
+{"sensor": 1, "index": 413, "values": [661, 1101, 1431]}
+{"sensor": 1, "index": 414, "values": [673, 1121, 1457]}
+{"sensor": 1, "index": 415, "values": [685, 1141, 1483]}
+{"sensor": 1, "index": 416, "values": [696, 1160, 1508]}
+{"sensor": 1, "index": 417, "values": [706, 1176, 1529]}
+{"sensor": 1, "index": 418, "values": [713, 1189, 1546]}
+{"sensor": 1, "index": 419, "values": [718, 1197, 1556]}
+{"sensor": 1, "index": 420, "values": [720, 1200, 1560]}
+{"sensor": 1, "index": 421, "values": [718, 1197, 1556]}
+{"sensor": 1, "index": 422, "values": [713, 1189, 1546]}
+{"sensor": 1, "index": 423, "values": [706, 1176, 1529]}
+{"sensor": 1, "index": 424, "values": [696, 1160, 1508]}
+{"sensor": 1, "index": 425, "values": [685, 1141, 1483]}
+{"sensor": 1, "index": 426, "values": [673, 1121, 1457]}
+{"sensor": 1, "index": 427, "values": [661, 1101, 1431]}
+{"sensor": 1, "index": 428, "values": [649, 1082, 1407]}
+{"sensor": 1, "index": 429, "values": [638, 1064, 1383]}
+{"sensor": 1, "index": 430, "values": [629, 1049, 1364]}
+{"sensor": 1, "index": 431, "values": [622, 1037, 1348]}
+{"sensor": 1, "index": 432, "values": [616, 1027, 1335]}
+{"sensor": 1, "index": 433, "values": [611, 1019, 1325]}
+{"sensor": 1, "index": 434, "values": [608, 1013, 1317]}
+{"sensor": 1, "index": 435, "values": [605, 1008, 1310]}
+{"sensor": 1, "index": 436, "values": [603, 1005, 1306]}
+{"sensor": 1, "index": 437, "values": [602, 1003, 1304]}
+{"sensor": 1, "index": 438, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 439, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 440, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 441, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 442, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 443, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 444, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 445, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 446, "values": [634, 1057, 1374]}
+{"sensor": 1, "index": 447, "values": [762, 1270, 1651]}
+{"sensor": 1, "index": 448, "values": [1093, 1822, 2369]}
+{"sensor": 1, "index": 449, "values": [1561, 2601, 3381]}
+{"sensor": 1, "index": 450, "values": [3600, 6000, 7800]}
+{"sensor": 1, "index": 451, "values": [1561, 2601, 3381]}
+{"sensor": 1, "index": 452, "values": [1093, 1822, 2369]}
+{"sensor": 1, "index": 453, "values": [762, 1270, 1651]}
+{"sensor": 1, "index": 454, "values": [634, 1057, 1374]}
+{"sensor": 1, "index": 455, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 456, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 457, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 458, "values": [600, 1000, 1300]}
+{"sensor": 1, "index": 459, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 460, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 461, "values": [601, 1001, 1301]}
+{"sensor": 1, "index": 462, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 463, "values": [601, 1002, 1303]}
+{"sensor": 1, "index": 464, "values": [602, 1003, 1304]}
+{"sensor": 1, "index": 465, "values": [602, 1004, 1305]}
+{"sensor": 1, "index": 466, "values": [603, 1005, 1306]}
+{"sensor": 1, "index": 467, "values": [604, 1006, 1308]}
+{"sensor": 1, "index": 468, "values": [604, 1007, 1309]}
+{"sensor": 1, "index": 469, "values": [605, 1009, 1312]}
+{"sensor": 1, "index": 470, "values": [607, 1011, 1314]}
+{"sensor": 1, "index": 471, "values": [608, 1013, 1317]}
+{"sensor": 1, "index": 472, "values": [610, 1016, 1321]}
+{"sensor": 1, "index": 473, "values": [611, 1019, 1325]}
+{"sensor": 1, "index": 474, "values": [613, 1022, 1329]}
+{"sensor": 1, "index": 475, "values": [616, 1026, 1334]}
+{"sensor": 1, "index": 476, "values": [618, 1030, 1339]}
+{"sensor": 1, "index": 477, "values": [621, 1035, 1346]}
+{"sensor": 1, "index": 478, "values": [625, 1041, 1353]}
+{"sensor": 1, "index": 479, "values": [628, 1047, 1361]}
+{"sensor": 1, "index": 480, "values": [632, 1054, 1370]}
+{"sensor": 1, "index": 481, "values": [637, 1061, 1379]}
+{"sensor": 1, "index": 482, "values": [642, 1070, 1391]}
+{"sensor": 1, "index": 483, "values": [647, 1079, 1403]}
+{"sensor": 1, "index": 484, "values": [653, 1089, 1416]}
+{"sensor": 1, "index": 485, "values": [659, 1099, 1429]}
+{"sensor": 1, "index": 486, "values": [667, 1111, 1444]}
+{"sensor": 1, "index": 487, "values": [674, 1123, 1460]}
+{"sensor": 1, "index": 488, "values": [682, 1136, 1477]}
+{"sensor": 1, "index": 489, "values": [690, 1150, 1495]}
+{"sensor": 1, "index": 490, "values": [698, 1164, 1513]}
+{"sensor": 1, "index": 491, "values": [707, 1179, 1533]}
+{"sensor": 1, "index": 492, "values": [716, 1194, 1552]}
+{"sensor": 1, "index": 493, "values": [726, 1210, 1573]}
+{"sensor": 1, "index": 494, "values": [736, 1226, 1594]}
+{"sensor": 1, "index": 495, "values": [745, 1242, 1615]}
+{"sensor": 1, "index": 496, "values": [755, 1258, 1635]}
+{"sensor": 1, "index": 497, "values": [764, 1274, 1656]}
+{"sensor": 1, "index": 498, "values": [774, 1290, 1677]}
+{"sensor": 1, "index": 499, "values": [783, 1305, 1696]}
+{"sensor": 1, "index": 500, "values": [792, 1320, 1716]}
+{"sensor": 1, "index": 501, "values": [800, 1334, 1734]}
+{"sensor": 1, "index": 502, "values": [808, 1346, 1750]}
+{"sensor": 1, "index": 503, "values": [815, 1358, 1765]}
+{"sensor": 1, "index": 504, "values": [821, 1369, 1780]}
+{"sensor": 1, "index": 505, "values": [827, 1378, 1791]}
+{"sensor": 1, "index": 506, "values": [832, 1386, 1802]}
+{"sensor": 1, "index": 507, "values": [835, 1392, 1810]}
+{"sensor": 1, "index": 508, "values": [838, 1396, 1815]}
+{"sensor": 1, "index": 509, "values": [839, 1399, 1819]}
+{"sensor": 1, "index": 510, "values": [840, 1400, 1820]}
+{"sensor": 1, "index": 511, "values": [839, 1399, 1819]}
+{"sensor": 1, "index": 512, "values": [838, 1396, 1815]}
+{"sensor": 1, "index": 513, "values": [835, 1392, 1810]}
+{"sensor": 1, "index": 514, "values": [832, 1386, 1802]}
+{"sensor": 1, "index": 515, "values": [827, 1378, 1791]}
+{"sensor": 1, "index": 516, "values": [821, 1369, 1780]}
+{"sensor": 1, "index": 517, "values": [815, 1358, 1765]}
+{"sensor": 1, "index": 518, "values": [808, 1346, 1750]}
+{"sensor": 1, "index": 519, "values": [800, 1334, 1734]}
+{"sensor": 1, "index": 520, "values": [792, 1320, 1716]}
+{"sensor": 1, "index": 521, "values": [783, 1305, 1696]}
+{"sensor": 1, "index": 522, "values": [774, 1290, 1677]}
+{"sensor": 1, "index": 523, "values": [764, 1274, 1656]}
+{"sensor": 1, "index": 524, "values": [755, 1258, 1635]}
+{"sensor": 1, "index": 525, "values": [745, 1242, 1615]}
+{"sensor": 1, "index": 526, "values": [736, 1226, 1594]}
+{"sensor": 1, "index": 527, "values": [726, 1210, 1573]}
+{"sensor": 1, "index": 528, "values": [716, 1194, 1552]}
+{"sensor": 1, "index": 529, "values": [707, 1179, 1533]}
+{"sensor": 1, "index": 530, "values": [698, 1164, 1513]}
+{"sensor": 1, "index": 531, "values": [690, 1150, 1495]}
+{"sensor": 1, "index": 532, "values": [682, 1136, 1477]}
+{"sensor": 1, "index": 533, "values": [674, 1123, 1460]}
+{"sensor": 1, "index": 534, "values": [667, 1111, 1444]}
+{"sensor": 1, "index": 535, "values": [659, 1099, 1429]}
+{"sensor": 1, "index": 536, "values": [653, 1089, 1416]}
+{"sensor": 1, "index": 537, "values": [647, 1079, 1403]}
+{"sensor": 1, "index": 538, "values": [642, 1070, 1391]}
+{"sensor": 1, "index": 539, "values": [637, 1061, 1379]}
+{"sensor": 1, "index": 540, "values": [632, 1054, 1370]}
+{"sensor": 1, "index": 541, "values": [628, 1047, 1361]}
+{"sensor": 1, "index": 542, "values": [625, 1041, 1353]}
+{"sensor": 1, "index": 543, "values": [621, 1035, 1346]}
+{"sensor": 1, "index": 544, "values": [618, 1030, 1339]}
+{"sensor": 1, "index": 545, "values": [616, 1026, 1334]}
+{"sensor": 1, "index": 546, "values": [613, 1022, 1329]}
+{"sensor": 2, "index": 0, "values": [400000, 153000]}
+{"sensor": 2, "index": 1, "values": [400004, 153000]}
+{"sensor": 2, "index": 2, "values": [400008, 153000]}
+{"sensor": 2, "index": 3, "values": [400012, 153000]}
+{"sensor": 2, "index": 4, "values": [400016, 153000]}
+{"sensor": 2, "index": 5, "values": [400020, 153000]}
+{"sensor": 2, "index": 6, "values": [400024, 153000]}
+{"sensor": 2, "index": 7, "values": [400027, 153000]}
+{"sensor": 2, "index": 8, "values": [400031, 153000]}
+{"sensor": 2, "index": 9, "values": [400035, 153000]}
+{"sensor": 2, "index": 10, "values": [400039, 153000]}
+{"sensor": 2, "index": 11, "values": [400043, 153000]}
+{"sensor": 2, "index": 12, "values": [400047, 153000]}
+{"sensor": 2, "index": 13, "values": [400051, 153000]}
+{"sensor": 2, "index": 14, "values": [400055, 153000]}
+{"sensor": 2, "index": 15, "values": [400059, 153000]}
+{"sensor": 2, "index": 16, "values": [400063, 153000]}
+{"sensor": 2, "index": 17, "values": [400067, 153000]}
+{"sensor": 2, "index": 18, "values": [400071, 153000]}
+{"sensor": 2, "index": 19, "values": [400075, 153000]}
+{"sensor": 2, "index": 20, "values": [400079, 153000]}
+{"sensor": 2, "index": 21, "values": [400082, 153000]}
+{"sensor": 2, "index": 22, "values": [400086, 153000]}
+{"sensor": 2, "index": 23, "values": [400090, 153000]}
+{"sensor": 2, "index": 24, "values": [400094, 153000]}
+{"sensor": 2, "index": 25, "values": [400098, 153000]}
+{"sensor": 2, "index": 26, "values": [400102, 153000]}
+{"sensor": 2, "index": 27, "values": [400106, 153000]}
+{"sensor": 2, "index": 28, "values": [400110, 153000]}
+{"sensor": 2, "index": 29, "values": [400114, 153000]}
+{"sensor": 2, "index": 30, "values": [400118, 153000]}
+{"sensor": 2, "index": 31, "values": [400122, 153000]}
+{"sensor": 2, "index": 32, "values": [400126, 153000]}
+{"sensor": 2, "index": 33, "values": [400130, 153000]}
+{"sensor": 2, "index": 34, "values": [400134, 153000]}
+{"sensor": 2, "index": 35, "values": [400137, 153000]}
+{"sensor": 2, "index": 36, "values": [400141, 153000]}
+{"sensor": 2, "index": 37, "values": [400145, 153000]}
+{"sensor": 2, "index": 38, "values": [400149, 153000]}
+{"sensor": 2, "index": 39, "values": [400153, 152999]}
+{"sensor": 2, "index": 40, "values": [400157, 152999]}
+{"sensor": 2, "index": 41, "values": [400161, 152999]}
+{"sensor": 2, "index": 42, "values": [400165, 152999]}
+{"sensor": 2, "index": 43, "values": [400169, 152999]}
+{"sensor": 2, "index": 44, "values": [400173, 152999]}
+{"sensor": 2, "index": 45, "values": [400177, 152999]}
+{"sensor": 2, "index": 46, "values": [400181, 152999]}
+{"sensor": 2, "index": 47, "values": [400185, 152999]}
+{"sensor": 2, "index": 48, "values": [400188, 152999]}
+{"sensor": 2, "index": 49, "values": [400192, 152999]}
+{"sensor": 2, "index": 50, "values": [400196, 152999]}
+{"sensor": 2, "index": 51, "values": [400200, 152999]}
+{"sensor": 2, "index": 52, "values": [400204, 152999]}
+{"sensor": 2, "index": 53, "values": [400208, 152999]}
+{"sensor": 2, "index": 54, "values": [400212, 152999]}
+{"sensor": 2, "index": 55, "values": [400216, 152999]}
+{"sensor": 2, "index": 56, "values": [400220, 152999]}
+{"sensor": 2, "index": 57, "values": [400224, 152999]}
+{"sensor": 2, "index": 58, "values": [400228, 152999]}
+{"sensor": 2, "index": 59, "values": [400232, 152999]}
+{"sensor": 2, "index": 60, "values": [400236, 152999]}
+{"sensor": 2, "index": 61, "values": [400239, 152999]}
+{"sensor": 2, "index": 62, "values": [400243, 152999]}
+{"sensor": 2, "index": 63, "values": [400247, 152999]}
+{"sensor": 2, "index": 64, "values": [400251, 152999]}
+{"sensor": 2, "index": 65, "values": [400255, 152999]}
+{"sensor": 2, "index": 66, "values": [400259, 152999]}
+{"sensor": 2, "index": 67, "values": [400263, 152999]}
+{"sensor": 2, "index": 68, "values": [400267, 152998]}
+{"sensor": 2, "index": 69, "values": [400271, 152998]}
+{"sensor": 2, "index": 70, "values": [400275, 152998]}
+{"sensor": 2, "index": 71, "values": [400279, 152998]}
+{"sensor": 2, "index": 72, "values": [400283, 152998]}
+{"sensor": 2, "index": 73, "values": [400287, 152998]}
+{"sensor": 2, "index": 74, "values": [400290, 152998]}
+{"sensor": 2, "index": 75, "values": [400294, 152998]}
+{"sensor": 2, "index": 76, "values": [400298, 152998]}
+{"sensor": 2, "index": 77, "values": [400302, 152998]}
+{"sensor": 2, "index": 78, "values": [400306, 152998]}
+{"sensor": 2, "index": 79, "values": [400310, 152998]}
+{"sensor": 2, "index": 80, "values": [400314, 152998]}
+{"sensor": 2, "index": 81, "values": [400318, 152998]}
+{"sensor": 2, "index": 82, "values": [400322, 152998]}
+{"sensor": 2, "index": 83, "values": [400326, 152998]}
+{"sensor": 2, "index": 84, "values": [400330, 152998]}
+{"sensor": 2, "index": 85, "values": [400334, 152998]}
+{"sensor": 2, "index": 86, "values": [400337, 152998]}
+{"sensor": 2, "index": 87, "values": [400341, 152997]}
+{"sensor": 2, "index": 88, "values": [400345, 152997]}
+{"sensor": 2, "index": 89, "values": [400349, 152997]}
+{"sensor": 2, "index": 90, "values": [400353, 152997]}
+{"sensor": 2, "index": 91, "values": [400357, 152997]}
+{"sensor": 2, "index": 92, "values": [400361, 152997]}
+{"sensor": 2, "index": 93, "values": [400365, 152997]}
+{"sensor": 2, "index": 94, "values": [400369, 152997]}
+{"sensor": 2, "index": 95, "values": [400373, 152997]}
+{"sensor": 2, "index": 96, "values": [400377, 152997]}
+{"sensor": 2, "index": 97, "values": [400381, 152997]}
+{"sensor": 2, "index": 98, "values": [400384, 152997]}
+{"sensor": 2, "index": 99, "values": [400388, 152997]}
+{"sensor": 2, "index": 100, "values": [400392, 152997]}
+{"sensor": 2, "index": 101, "values": [400396, 152997]}
+{"sensor": 2, "index": 102, "values": [400400, 152997]}
+{"sensor": 2, "index": 103, "values": [400404, 152996]}
+{"sensor": 2, "index": 104, "values": [400408, 152996]}
+{"sensor": 2, "index": 105, "values": [400412, 152996]}
+{"sensor": 2, "index": 106, "values": [400416, 152996]}
+{"sensor": 2, "index": 107, "values": [400420, 152996]}
+{"sensor": 2, "index": 108, "values": [400424, 152996]}
+{"sensor": 2, "index": 109, "values": [400428, 152996]}
+{"sensor": 2, "index": 110, "values": [400431, 152996]}
+{"sensor": 2, "index": 111, "values": [400435, 152996]}
+{"sensor": 2, "index": 112, "values": [400439, 152996]}
+{"sensor": 2, "index": 113, "values": [400443, 152996]}
+{"sensor": 2, "index": 114, "values": [400447, 152996]}
+{"sensor": 2, "index": 115, "values": [400451, 152996]}
+{"sensor": 2, "index": 116, "values": [400455, 152996]}
+{"sensor": 2, "index": 117, "values": [400459, 152995]}
+{"sensor": 2, "index": 118, "values": [400463, 152995]}
+{"sensor": 2, "index": 119, "values": [400467, 152995]}
+{"sensor": 2, "index": 120, "values": [400471, 152995]}
+{"sensor": 2, "index": 121, "values": [400474, 152995]}
+{"sensor": 2, "index": 122, "values": [400478, 152995]}
+{"sensor": 2, "index": 123, "values": [400482, 152995]}
+{"sensor": 2, "index": 124, "values": [400486, 152995]}
+{"sensor": 2, "index": 125, "values": [400490, 152995]}
+{"sensor": 2, "index": 126, "values": [400494, 152995]}
+{"sensor": 2, "index": 127, "values": [400498, 152995]}
+{"sensor": 2, "index": 128, "values": [400502, 152995]}
+{"sensor": 2, "index": 129, "values": [400506, 152994]}
+{"sensor": 2, "index": 130, "values": [400510, 152994]}
+{"sensor": 2, "index": 131, "values": [400514, 152994]}
+{"sensor": 2, "index": 132, "values": [400517, 152994]}
+{"sensor": 2, "index": 133, "values": [400521, 152994]}
+{"sensor": 2, "index": 134, "values": [400525, 152994]}
+{"sensor": 2, "index": 135, "values": [400529, 152994]}
+{"sensor": 2, "index": 136, "values": [400533, 152994]}
+{"sensor": 2, "index": 137, "values": [400537, 152994]}
+{"sensor": 2, "index": 138, "values": [400541, 152994]}
+{"sensor": 2, "index": 139, "values": [400545, 152994]}
+{"sensor": 2, "index": 140, "values": [400549, 152993]}
+{"sensor": 2, "index": 141, "values": [400553, 152993]}
+{"sensor": 2, "index": 142, "values": [400556, 152993]}
+{"sensor": 2, "index": 143, "values": [400560, 152993]}
+{"sensor": 2, "index": 144, "values": [400564, 152993]}
+{"sensor": 2, "index": 145, "values": [400568, 152993]}
+{"sensor": 2, "index": 146, "values": [400572, 152993]}
+{"sensor": 2, "index": 147, "values": [400576, 152993]}
+{"sensor": 2, "index": 148, "values": [400580, 152993]}
+{"sensor": 2, "index": 149, "values": [400584, 152993]}
+{"sensor": 2, "index": 150, "values": [400588, 152993]}
+{"sensor": 2, "index": 151, "values": [400592, 152992]}
+{"sensor": 2, "index": 152, "values": [400595, 152992]}
+{"sensor": 2, "index": 153, "values": [400599, 152992]}
+{"sensor": 2, "index": 154, "values": [400603, 152992]}
+{"sensor": 2, "index": 155, "values": [400607, 152992]}
+{"sensor": 2, "index": 156, "values": [400611, 152992]}
+{"sensor": 2, "index": 157, "values": [400615, 152992]}
+{"sensor": 2, "index": 158, "values": [400619, 152992]}
+{"sensor": 2, "index": 159, "values": [400623, 152992]}
+{"sensor": 2, "index": 160, "values": [400627, 152991]}
+{"sensor": 2, "index": 161, "values": [400631, 152991]}
+{"sensor": 2, "index": 162, "values": [400634, 152991]}
+{"sensor": 2, "index": 163, "values": [400638, 152991]}
+{"sensor": 2, "index": 164, "values": [400642, 152991]}
+{"sensor": 2, "index": 165, "values": [400646, 152991]}
+{"sensor": 2, "index": 166, "values": [400650, 152991]}
+{"sensor": 2, "index": 167, "values": [400654, 152991]}
+{"sensor": 2, "index": 168, "values": [400658, 152991]}
+{"sensor": 2, "index": 169, "values": [400662, 152990]}
+{"sensor": 2, "index": 170, "values": [400666, 152990]}
+{"sensor": 2, "index": 171, "values": [400669, 152990]}
+{"sensor": 2, "index": 172, "values": [400673, 152990]}
+{"sensor": 2, "index": 173, "values": [400677, 152990]}
+{"sensor": 2, "index": 174, "values": [400681, 152990]}
+{"sensor": 2, "index": 175, "values": [400685, 152990]}
+{"sensor": 2, "index": 176, "values": [400689, 152990]}
+{"sensor": 2, "index": 177, "values": [400693, 152990]}
+{"sensor": 2, "index": 178, "values": [400697, 152989]}
+{"sensor": 2, "index": 179, "values": [400701, 152989]}
+{"sensor": 2, "index": 180, "values": [400705, 152989]}
+{"sensor": 2, "index": 181, "values": [400708, 152989]}
+{"sensor": 2, "index": 182, "values": [400712, 152989]}
+{"sensor": 2, "index": 183, "values": [400716, 152989]}
+{"sensor": 2, "index": 184, "values": [400720, 152989]}
+{"sensor": 2, "index": 185, "values": [400724, 152989]}
+{"sensor": 2, "index": 186, "values": [400728, 152988]}
+{"sensor": 2, "index": 187, "values": [400732, 152988]}
+{"sensor": 2, "index": 188, "values": [400736, 152988]}
+{"sensor": 2, "index": 189, "values": [400739, 152988]}
+{"sensor": 2, "index": 190, "values": [400743, 152988]}
+{"sensor": 2, "index": 191, "values": [400747, 152988]}
+{"sensor": 2, "index": 192, "values": [400751, 152988]}
+{"sensor": 2, "index": 193, "values": [400755, 152988]}
+{"sensor": 2, "index": 194, "values": [400759, 152987]}
+{"sensor": 2, "index": 195, "values": [400763, 152987]}
+{"sensor": 2, "index": 196, "values": [400767, 152987]}
+{"sensor": 2, "index": 197, "values": [400771, 152987]}
+{"sensor": 2, "index": 198, "values": [400774, 152987]}
+{"sensor": 2, "index": 199, "values": [400778, 152987]}
+{"sensor": 2, "index": 200, "values": [400782, 152987]}
+{"sensor": 2, "index": 201, "values": [400786, 152987]}
+{"sensor": 2, "index": 202, "values": [400790, 152986]}
+{"sensor": 2, "index": 203, "values": [400794, 152986]}
+{"sensor": 2, "index": 204, "values": [400798, 152986]}
+{"sensor": 2, "index": 205, "values": [400802, 152986]}
+{"sensor": 2, "index": 206, "values": [400805, 152986]}
+{"sensor": 2, "index": 207, "values": [400809, 152986]}
+{"sensor": 2, "index": 208, "values": [400813, 152986]}
+{"sensor": 2, "index": 209, "values": [400817, 152985]}
+{"sensor": 2, "index": 210, "values": [400821, 152985]}
+{"sensor": 2, "index": 211, "values": [400825, 152985]}
+{"sensor": 2, "index": 212, "values": [400829, 152985]}
+{"sensor": 2, "index": 213, "values": [400833, 152985]}
+{"sensor": 2, "index": 214, "values": [400836, 152985]}
+{"sensor": 2, "index": 215, "values": [400840, 152985]}
+{"sensor": 2, "index": 216, "values": [400844, 152984]}
+{"sensor": 2, "index": 217, "values": [400848, 152984]}
+{"sensor": 2, "index": 218, "values": [400852, 152984]}
+{"sensor": 2, "index": 219, "values": [400856, 152984]}
+{"sensor": 2, "index": 220, "values": [400860, 152984]}
+{"sensor": 2, "index": 221, "values": [400864, 152984]}
+{"sensor": 2, "index": 222, "values": [400867, 152984]}
+{"sensor": 2, "index": 223, "values": [400871, 152983]}
+{"sensor": 2, "index": 224, "values": [400875, 152983]}
+{"sensor": 2, "index": 225, "values": [400879, 152983]}
+{"sensor": 2, "index": 226, "values": [400883, 152983]}
+{"sensor": 2, "index": 227, "values": [400887, 152983]}
+{"sensor": 2, "index": 228, "values": [400891, 152983]}
+{"sensor": 2, "index": 229, "values": [400894, 152983]}
+{"sensor": 2, "index": 230, "values": [400898, 152982]}
+{"sensor": 2, "index": 231, "values": [400902, 152982]}
+{"sensor": 2, "index": 232, "values": [400906, 152982]}
+{"sensor": 2, "index": 233, "values": [400910, 152982]}
+{"sensor": 2, "index": 234, "values": [400914, 152982]}
+{"sensor": 2, "index": 235, "values": [400918, 152982]}
+{"sensor": 2, "index": 236, "values": [400921, 152981]}
+{"sensor": 2, "index": 237, "values": [400925, 152981]}
+{"sensor": 2, "index": 238, "values": [400929, 152981]}
+{"sensor": 2, "index": 239, "values": [400933, 152981]}
+{"sensor": 2, "index": 240, "values": [400937, 152981]}
+{"sensor": 2, "index": 241, "values": [400941, 152981]}
+{"sensor": 2, "index": 242, "values": [400945, 152981]}
+{"sensor": 2, "index": 243, "values": [400948, 152980]}
+{"sensor": 2, "index": 244, "values": [400952, 152980]}
+{"sensor": 2, "index": 245, "values": [400956, 152980]}
+{"sensor": 2, "index": 246, "values": [400960, 152980]}
+{"sensor": 2, "index": 247, "values": [400964, 152980]}
+{"sensor": 2, "index": 248, "values": [400968, 152980]}
+{"sensor": 2, "index": 249, "values": [400972, 152979]}
+{"sensor": 2, "index": 250, "values": [400975, 152979]}
+{"sensor": 2, "index": 251, "values": [400979, 152979]}
+{"sensor": 2, "index": 252, "values": [400983, 152979]}
+{"sensor": 2, "index": 253, "values": [400987, 152979]}
+{"sensor": 2, "index": 254, "values": [400991, 152979]}
+{"sensor": 2, "index": 255, "values": [400995, 152978]}
+{"sensor": 2, "index": 256, "values": [400999, 152978]}
+{"sensor": 2, "index": 257, "values": [401002, 152978]}
+{"sensor": 2, "index": 258, "values": [401006, 152978]}
+{"sensor": 2, "index": 259, "values": [401010, 152978]}
+{"sensor": 2, "index": 260, "values": [401014, 152978]}
+{"sensor": 2, "index": 261, "values": [401018, 152977]}
+{"sensor": 2, "index": 262, "values": [401022, 152977]}
+{"sensor": 2, "index": 263, "values": [401025, 152977]}
+{"sensor": 2, "index": 264, "values": [401029, 152977]}
+{"sensor": 2, "index": 265, "values": [401033, 152977]}
+{"sensor": 2, "index": 266, "values": [401037, 152976]}
+{"sensor": 2, "index": 267, "values": [401041, 152976]}
+{"sensor": 2, "index": 268, "values": [401045, 152976]}
+{"sensor": 2, "index": 269, "values": [401049, 152976]}
+{"sensor": 2, "index": 270, "values": [401052, 152976]}
+{"sensor": 2, "index": 271, "values": [401056, 152976]}
+{"sensor": 2, "index": 272, "values": [401060, 152975]}
+{"sensor": 2, "index": 273, "values": [401064, 152975]}
+{"sensor": 2, "index": 274, "values": [401068, 152975]}
+{"sensor": 2, "index": 275, "values": [401072, 152975]}
+{"sensor": 2, "index": 276, "values": [401075, 152975]}
+{"sensor": 2, "index": 277, "values": [401079, 152974]}
+{"sensor": 2, "index": 278, "values": [401083, 152974]}
+{"sensor": 2, "index": 279, "values": [401087, 152974]}
+{"sensor": 2, "index": 280, "values": [401091, 152974]}
+{"sensor": 2, "index": 281, "values": [401095, 152974]}
+{"sensor": 2, "index": 282, "values": [401098, 152974]}
+{"sensor": 2, "index": 283, "values": [401102, 152973]}
+{"sensor": 2, "index": 284, "values": [401106, 152973]}
+{"sensor": 2, "index": 285, "values": [401110, 152973]}
+{"sensor": 2, "index": 286, "values": [401114, 152973]}
+{"sensor": 2, "index": 287, "values": [401118, 152973]}
+{"sensor": 2, "index": 288, "values": [401121, 152972]}
+{"sensor": 2, "index": 289, "values": [401125, 152972]}
+{"sensor": 2, "index": 290, "values": [401129, 152972]}
+{"sensor": 2, "index": 291, "values": [401133, 152972]}
+{"sensor": 2, "index": 292, "values": [401137, 152972]}
+{"sensor": 2, "index": 293, "values": [401140, 152971]}
+{"sensor": 2, "index": 294, "values": [401144, 152971]}
+{"sensor": 2, "index": 295, "values": [401148, 152971]}
+{"sensor": 2, "index": 296, "values": [401152, 152971]}
+{"sensor": 2, "index": 297, "values": [401156, 152971]}
+{"sensor": 2, "index": 298, "values": [401160, 152970]}
+{"sensor": 2, "index": 299, "values": [401163, 152970]}
+{"sensor": 2, "index": 300, "values": [401167, 152970]}
+{"sensor": 2, "index": 301, "values": [401171, 152970]}
+{"sensor": 2, "index": 302, "values": [401175, 152970]}
+{"sensor": 2, "index": 303, "values": [401179, 152969]}
+{"sensor": 2, "index": 304, "values": [401182, 152969]}
+{"sensor": 2, "index": 305, "values": [401186, 152969]}
+{"sensor": 2, "index": 306, "values": [401190, 152969]}
+{"sensor": 2, "index": 307, "values": [401194, 152969]}
+{"sensor": 2, "index": 308, "values": [401198, 152968]}
+{"sensor": 2, "index": 309, "values": [401202, 152968]}
+{"sensor": 2, "index": 310, "values": [401205, 152968]}
+{"sensor": 2, "index": 311, "values": [401209, 152968]}
+{"sensor": 2, "index": 312, "values": [401213, 152968]}
+{"sensor": 2, "index": 313, "values": [401217, 152967]}
+{"sensor": 2, "index": 314, "values": [401221, 152967]}
+{"sensor": 2, "index": 315, "values": [401224, 152967]}
+{"sensor": 2, "index": 316, "values": [401228, 152967]}
+{"sensor": 2, "index": 317, "values": [401232, 152967]}
+{"sensor": 2, "index": 318, "values": [401236, 152966]}
+{"sensor": 2, "index": 319, "values": [401240, 152966]}
+{"sensor": 2, "index": 320, "values": [401243, 152966]}
+{"sensor": 2, "index": 321, "values": [401247, 152966]}
+{"sensor": 2, "index": 322, "values": [401251, 152966]}
+{"sensor": 2, "index": 323, "values": [401255, 152965]}
+{"sensor": 2, "index": 324, "values": [401259, 152965]}
+{"sensor": 2, "index": 325, "values": [401262, 152965]}
+{"sensor": 2, "index": 326, "values": [401266, 152965]}
+{"sensor": 2, "index": 327, "values": [401270, 152964]}
+{"sensor": 2, "index": 328, "values": [401274, 152964]}
+{"sensor": 2, "index": 329, "values": [401278, 152964]}
+{"sensor": 2, "index": 330, "values": [401281, 152964]}
+{"sensor": 2, "index": 331, "values": [401285, 152964]}
+{"sensor": 2, "index": 332, "values": [401289, 152963]}
+{"sensor": 2, "index": 333, "values": [401293, 152963]}
+{"sensor": 2, "index": 334, "values": [401297, 152963]}
+{"sensor": 2, "index": 335, "values": [401300, 152963]}
+{"sensor": 2, "index": 336, "values": [401304, 152962]}
+{"sensor": 2, "index": 337, "values": [401308, 152962]}
+{"sensor": 2, "index": 338, "values": [401312, 152962]}
+{"sensor": 2, "index": 339, "values": [401316, 152962]}
+{"sensor": 2, "index": 340, "values": [401319, 152962]}
+{"sensor": 2, "index": 341, "values": [401323, 152961]}
+{"sensor": 2, "index": 342, "values": [401327, 152961]}
+{"sensor": 2, "index": 343, "values": [401331, 152961]}
+{"sensor": 2, "index": 344, "values": [401335, 152961]}
+{"sensor": 2, "index": 345, "values": [401338, 152960]}
+{"sensor": 2, "index": 346, "values": [401342, 152960]}
+{"sensor": 2, "index": 347, "values": [401346, 152960]}
+{"sensor": 2, "index": 348, "values": [401350, 152960]}
+{"sensor": 2, "index": 349, "values": [401353, 152960]}
+{"sensor": 2, "index": 350, "values": [401357, 152959]}
+{"sensor": 2, "index": 351, "values": [401361, 152959]}
+{"sensor": 2, "index": 352, "values": [401365, 152959]}
+{"sensor": 2, "index": 353, "values": [401369, 152959]}
+{"sensor": 2, "index": 354, "values": [401372, 152958]}
+{"sensor": 2, "index": 355, "values": [401376, 152958]}
+{"sensor": 2, "index": 356, "values": [401380, 152958]}
+{"sensor": 2, "index": 357, "values": [401384, 152958]}
+{"sensor": 2, "index": 358, "values": [401387, 152957]}
+{"sensor": 2, "index": 359, "values": [401391, 152957]}
+{"sensor": 2, "index": 360, "values": [401395, 152957]}
+{"sensor": 2, "index": 361, "values": [401399, 152957]}
+{"sensor": 2, "index": 362, "values": [401402, 152956]}
+{"sensor": 2, "index": 363, "values": [401406, 152956]}
+{"sensor": 2, "index": 364, "values": [401410, 152956]}
+{"sensor": 2, "index": 365, "values": [401414, 152956]}
+{"sensor": 2, "index": 366, "values": [401418, 152955]}
+{"sensor": 2, "index": 367, "values": [401421, 152955]}
+{"sensor": 2, "index": 368, "values": [401425, 152955]}
+{"sensor": 2, "index": 369, "values": [401429, 152955]}
+{"sensor": 2, "index": 370, "values": [401433, 152955]}
+{"sensor": 2, "index": 371, "values": [401436, 152954]}
+{"sensor": 2, "index": 372, "values": [401440, 152954]}
+{"sensor": 2, "index": 373, "values": [401444, 152954]}
+{"sensor": 2, "index": 374, "values": [401448, 152954]}
+{"sensor": 2, "index": 375, "values": [401451, 152953]}
+{"sensor": 2, "index": 376, "values": [401455, 152953]}
+{"sensor": 2, "index": 377, "values": [401459, 152953]}
+{"sensor": 2, "index": 378, "values": [401463, 152953]}
+{"sensor": 2, "index": 379, "values": [401466, 152952]}
+{"sensor": 2, "index": 380, "values": [401470, 152952]}
+{"sensor": 2, "index": 381, "values": [401474, 152952]}
+{"sensor": 2, "index": 382, "values": [401478, 152952]}
+{"sensor": 2, "index": 383, "values": [401481, 152951]}
+{"sensor": 2, "index": 384, "values": [401485, 152951]}
+{"sensor": 2, "index": 385, "values": [401489, 152951]}
+{"sensor": 2, "index": 386, "values": [401493, 152951]}
+{"sensor": 2, "index": 387, "values": [401496, 152950]}
+{"sensor": 2, "index": 388, "values": [401500, 152950]}
+{"sensor": 2, "index": 389, "values": [401504, 152950]}
+{"sensor": 2, "index": 390, "values": [401508, 152949]}
+{"sensor": 2, "index": 391, "values": [401511, 152949]}
+{"sensor": 2, "index": 392, "values": [401515, 152949]}
+{"sensor": 2, "index": 393, "values": [401519, 152949]}
+{"sensor": 2, "index": 394, "values": [401523, 152948]}
+{"sensor": 2, "index": 395, "values": [401526, 152948]}
+{"sensor": 2, "index": 396, "values": [401530, 152948]}
+{"sensor": 2, "index": 397, "values": [401534, 152948]}
+{"sensor": 2, "index": 398, "values": [401538, 152947]}
+{"sensor": 2, "index": 399, "values": [401541, 152947]}
+{"sensor": 2, "index": 400, "values": [401545, 152947]}
+{"sensor": 2, "index": 401, "values": [401549, 152947]}
+{"sensor": 2, "index": 402, "values": [401553, 152946]}
+{"sensor": 2, "index": 403, "values": [401556, 152946]}
+{"sensor": 2, "index": 404, "values": [401560, 152946]}
+{"sensor": 2, "index": 405, "values": [401564, 152946]}
+{"sensor": 2, "index": 406, "values": [401567, 152945]}
+{"sensor": 2, "index": 407, "values": [401571, 152945]}
+{"sensor": 2, "index": 408, "values": [401575, 152945]}
+{"sensor": 2, "index": 409, "values": [401579, 152944]}
+{"sensor": 2, "index": 410, "values": [401582, 152944]}
+{"sensor": 2, "index": 411, "values": [401586, 152944]}
+{"sensor": 2, "index": 412, "values": [401590, 152944]}
+{"sensor": 2, "index": 413, "values": [401594, 152943]}
+{"sensor": 2, "index": 414, "values": [401597, 152943]}
+{"sensor": 2, "index": 415, "values": [401601, 152943]}
+{"sensor": 2, "index": 416, "values": [401605, 152943]}
+{"sensor": 2, "index": 417, "values": [401608, 152942]}
+{"sensor": 2, "index": 418, "values": [401612, 152942]}
+{"sensor": 2, "index": 419, "values": [401616, 152942]}
+{"sensor": 2, "index": 420, "values": [401620, 152941]}
+{"sensor": 2, "index": 421, "values": [401623, 152941]}
+{"sensor": 2, "index": 422, "values": [401627, 152941]}
+{"sensor": 2, "index": 423, "values": [401631, 152941]}
+{"sensor": 2, "index": 424, "values": [401634, 152940]}
+{"sensor": 2, "index": 425, "values": [401638, 152940]}
+{"sensor": 2, "index": 426, "values": [401642, 152940]}
+{"sensor": 2, "index": 427, "values": [401646, 152939]}
+{"sensor": 2, "index": 428, "values": [401649, 152939]}
+{"sensor": 2, "index": 429, "values": [401653, 152939]}
+{"sensor": 2, "index": 430, "values": [401657, 152939]}
+{"sensor": 2, "index": 431, "values": [401660, 152938]}
+{"sensor": 2, "index": 432, "values": [401664, 152938]}
+{"sensor": 2, "index": 433, "values": [401668, 152938]}
+{"sensor": 2, "index": 434, "values": [401672, 152937]}
+{"sensor": 2, "index": 435, "values": [401675, 152937]}
+{"sensor": 2, "index": 436, "values": [401679, 152937]}
+{"sensor": 2, "index": 437, "values": [401683, 152937]}
+{"sensor": 2, "index": 438, "values": [401686, 152936]}
+{"sensor": 2, "index": 439, "values": [401690, 152936]}
+{"sensor": 2, "index": 440, "values": [401694, 152936]}
+{"sensor": 2, "index": 441, "values": [401697, 152935]}
+{"sensor": 2, "index": 442, "values": [401701, 152935]}
+{"sensor": 2, "index": 443, "values": [401705, 152935]}
+{"sensor": 2, "index": 444, "values": [401708, 152935]}
+{"sensor": 2, "index": 445, "values": [401712, 152934]}
+{"sensor": 2, "index": 446, "values": [401716, 152934]}
+{"sensor": 2, "index": 447, "values": [401720, 152934]}
+{"sensor": 2, "index": 448, "values": [401723, 152933]}
+{"sensor": 2, "index": 449, "values": [401727, 152933]}
+{"sensor": 2, "index": 450, "values": [401731, 152933]}
+{"sensor": 2, "index": 451, "values": [401734, 152933]}
+{"sensor": 2, "index": 452, "values": [401738, 152932]}
+{"sensor": 2, "index": 453, "values": [401742, 152932]}
+{"sensor": 2, "index": 454, "values": [401745, 152932]}
+{"sensor": 2, "index": 455, "values": [401749, 152931]}
+{"sensor": 2, "index": 456, "values": [401753, 152931]}
+{"sensor": 2, "index": 457, "values": [401756, 152931]}
+{"sensor": 2, "index": 458, "values": [401760, 152930]}
+{"sensor": 2, "index": 459, "values": [401764, 152930]}
+{"sensor": 2, "index": 460, "values": [401767, 152930]}
+{"sensor": 2, "index": 461, "values": [401771, 152929]}
+{"sensor": 2, "index": 462, "values": [401775, 152929]}
+{"sensor": 2, "index": 463, "values": [401778, 152929]}
+{"sensor": 2, "index": 464, "values": [401782, 152929]}
+{"sensor": 2, "index": 465, "values": [401786, 152928]}
+{"sensor": 2, "index": 466, "values": [401789, 152928]}
+{"sensor": 2, "index": 467, "values": [401793, 152928]}
+{"sensor": 2, "index": 468, "values": [401797, 152927]}
+{"sensor": 2, "index": 469, "values": [401800, 152927]}
+{"sensor": 2, "index": 470, "values": [401804, 152927]}
+{"sensor": 2, "index": 471, "values": [401808, 152926]}
+{"sensor": 2, "index": 472, "values": [401811, 152926]}
+{"sensor": 2, "index": 473, "values": [401815, 152926]}
+{"sensor": 2, "index": 474, "values": [401819, 152925]}
+{"sensor": 2, "index": 475, "values": [401822, 152925]}
+{"sensor": 2, "index": 476, "values": [401826, 152925]}
+{"sensor": 2, "index": 477, "values": [401830, 152925]}
+{"sensor": 2, "index": 478, "values": [401833, 152924]}
+{"sensor": 2, "index": 479, "values": [401837, 152924]}
+{"sensor": 2, "index": 480, "values": [401841, 152924]}
+{"sensor": 2, "index": 481, "values": [401844, 152923]}
+{"sensor": 2, "index": 482, "values": [401848, 152923]}
+{"sensor": 2, "index": 483, "values": [401852, 152923]}
+{"sensor": 2, "index": 484, "values": [401855, 152922]}
+{"sensor": 2, "index": 485, "values": [401859, 152922]}
+{"sensor": 2, "index": 486, "values": [401863, 152922]}
+{"sensor": 2, "index": 487, "values": [401866, 152921]}
+{"sensor": 2, "index": 488, "values": [401870, 152921]}
+{"sensor": 2, "index": 489, "values": [401873, 152921]}
+{"sensor": 2, "index": 490, "values": [401877, 152920]}
+{"sensor": 2, "index": 491, "values": [401881, 152920]}
+{"sensor": 2, "index": 492, "values": [401884, 152920]}
+{"sensor": 2, "index": 493, "values": [401888, 152919]}
+{"sensor": 2, "index": 494, "values": [401892, 152919]}
+{"sensor": 2, "index": 495, "values": [401895, 152919]}
+{"sensor": 2, "index": 496, "values": [401899, 152918]}
+{"sensor": 2, "index": 497, "values": [401903, 152918]}
+{"sensor": 2, "index": 498, "values": [401906, 152918]}
+{"sensor": 2, "index": 499, "values": [401910, 152917]}
+{"sensor": 2, "index": 500, "values": [401913, 152917]}
+{"sensor": 2, "index": 501, "values": [401917, 152917]}
+{"sensor": 2, "index": 502, "values": [401921, 152916]}
+{"sensor": 2, "index": 503, "values": [401924, 152916]}
+{"sensor": 2, "index": 504, "values": [401928, 152916]}
+{"sensor": 2, "index": 505, "values": [401932, 152915]}
+{"sensor": 2, "index": 506, "values": [401935, 152915]}
+{"sensor": 2, "index": 507, "values": [401939, 152915]}
+{"sensor": 2, "index": 508, "values": [401942, 152914]}
+{"sensor": 2, "index": 509, "values": [401946, 152914]}
+{"sensor": 2, "index": 510, "values": [401950, 152914]}
+{"sensor": 2, "index": 511, "values": [401953, 152913]}
+{"sensor": 2, "index": 512, "values": [401957, 152913]}
+{"sensor": 2, "index": 513, "values": [401960, 152913]}
+{"sensor": 2, "index": 514, "values": [401964, 152912]}
+{"sensor": 2, "index": 515, "values": [401968, 152912]}
+{"sensor": 2, "index": 516, "values": [401971, 152912]}
+{"sensor": 2, "index": 517, "values": [401975, 152911]}
+{"sensor": 2, "index": 518, "values": [401979, 152911]}
+{"sensor": 2, "index": 519, "values": [401982, 152911]}
+{"sensor": 2, "index": 520, "values": [401986, 152910]}
+{"sensor": 2, "index": 521, "values": [401989, 152910]}
+{"sensor": 2, "index": 522, "values": [401993, 152910]}
+{"sensor": 2, "index": 523, "values": [401997, 152909]}
+{"sensor": 2, "index": 524, "values": [402000, 152909]}
+{"sensor": 2, "index": 525, "values": [402004, 152909]}
+{"sensor": 2, "index": 526, "values": [402007, 152908]}
+{"sensor": 2, "index": 527, "values": [402011, 152908]}
+{"sensor": 2, "index": 528, "values": [402015, 152908]}
+{"sensor": 2, "index": 529, "values": [402018, 152907]}
+{"sensor": 2, "index": 530, "values": [402022, 152907]}
+{"sensor": 2, "index": 531, "values": [402025, 152907]}
+{"sensor": 2, "index": 532, "values": [402029, 152906]}
+{"sensor": 2, "index": 533, "values": [402032, 152906]}
+{"sensor": 2, "index": 534, "values": [402036, 152906]}
+{"sensor": 2, "index": 535, "values": [402040, 152905]}
+{"sensor": 2, "index": 536, "values": [402043, 152905]}
+{"sensor": 2, "index": 537, "values": [402047, 152904]}
+{"sensor": 2, "index": 538, "values": [402050, 152904]}
+{"sensor": 2, "index": 539, "values": [402054, 152904]}
+{"sensor": 2, "index": 540, "values": [402058, 152903]}
+{"sensor": 2, "index": 541, "values": [402061, 152903]}
+{"sensor": 2, "index": 542, "values": [402065, 152903]}
+{"sensor": 2, "index": 543, "values": [402068, 152902]}
+{"sensor": 2, "index": 544, "values": [402072, 152902]}
+{"sensor": 2, "index": 545, "values": [402075, 152902]}
+{"sensor": 2, "index": 546, "values": [402079, 152901]}
+{"sensor": 2, "index": 547, "values": [402083, 152901]}
+{"sensor": 2, "index": 548, "values": [402086, 152901]}
+{"sensor": 2, "index": 549, "values": [402090, 152900]}
+{"sensor": 2, "index": 550, "values": [402093, 152900]}
+{"sensor": 2, "index": 551, "values": [402097, 152899]}
+{"sensor": 2, "index": 552, "values": [402100, 152899]}
+{"sensor": 2, "index": 553, "values": [402104, 152899]}
+{"sensor": 2, "index": 554, "values": [402108, 152898]}
+{"sensor": 2, "index": 555, "values": [402111, 152898]}
+{"sensor": 2, "index": 556, "values": [402115, 152898]}
+{"sensor": 2, "index": 557, "values": [402118, 152897]}
+{"sensor": 2, "index": 558, "values": [402122, 152897]}
+{"sensor": 2, "index": 559, "values": [402125, 152897]}
+{"sensor": 2, "index": 560, "values": [402129, 152896]}
+{"sensor": 2, "index": 561, "values": [402132, 152896]}
+{"sensor": 2, "index": 562, "values": [402136, 152895]}
+{"sensor": 2, "index": 563, "values": [402140, 152895]}
+{"sensor": 2, "index": 564, "values": [402143, 152895]}
+{"sensor": 2, "index": 565, "values": [402147, 152894]}
+{"sensor": 2, "index": 566, "values": [402150, 152894]}
+{"sensor": 2, "index": 567, "values": [402154, 152894]}
+{"sensor": 2, "index": 568, "values": [402157, 152893]}
+{"sensor": 2, "index": 569, "values": [402161, 152893]}
+{"sensor": 2, "index": 570, "values": [402164, 152892]}
+{"sensor": 2, "index": 571, "values": [402168, 152892]}
+{"sensor": 2, "index": 572, "values": [402171, 152892]}
+{"sensor": 2, "index": 573, "values": [402175, 152891]}
+{"sensor": 2, "index": 574, "values": [402179, 152891]}
+{"sensor": 2, "index": 575, "values": [402182, 152891]}

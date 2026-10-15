@@ -1,0 +1,24 @@
+{
+  "environment": {
+    "os": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.22631",
+    "architecture": "AMD64",
+    "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "cpu_physical_cores": 4,
+    "cpu_total_cores": 8,
+    "ram_total_bytes": 8482013184,
+    "ram_total_gb": 7.9,
+    "python_version": "3.14.6"
+  },
+  "duration_seconds": 10.4,
+  "duration_hours": 0.003,
+  "average_cpu_percent": 26.52,
+  "peak_memory_mb": 52.29,
+  "disk_written_mb": 65.87,
+  "network_sent_mb": 1.62,
+  "device_db_size_mb": 0.64,
+  "samples_saved": 8403,
+  "samples_in_cloud": 8403,
+  "backlog": 0
+}

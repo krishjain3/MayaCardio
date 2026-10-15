@@ -1,0 +1,21 @@
+[Unit]
+Description=MayaCardio Cloud Ingestion and Processing API Service
+After=network.target
+
+[Service]
+Type=simple
+User=clouduser
+WorkingDirectory=/opt/mayacardio
+Environment=PORT=8000
+Environment=CLOUD_DB_PATH=/opt/mayacardio/data/cloud.db
+EnvironmentFile=-/opt/mayacardio/.env
+ExecStart=/usr/bin/python3 -m cloud.server
+Restart=always
+RestartSec=5
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
