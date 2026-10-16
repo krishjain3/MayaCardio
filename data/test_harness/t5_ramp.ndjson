@@ -531,10 +531,6 @@
 {"sensor": 1, "index": 530, "values": [1590, 1591, 1592]}
 {"sensor": 1, "index": 531, "values": [1593, 1594, 1595]}
 {"sensor": 1, "index": 532, "values": [1596, 1597, 1598]}
-{"sensor": 1, "index": 533, "values": [1599, 1600, 1601]}
-{"sensor": 1, "index": 534, "values": [1602, 1603, 1604]}
-{"sensor": 1, "index": 535, "values": [1605, 1606, 1607]}
-{"sensor": 1, "index": 536, "values": [1608, 1609, 1610]}
 {"sensor": 2, "index": 0, "values": [0, 1]}
 {"sensor": 2, "index": 1, "values": [2, 3]}
 {"sensor": 2, "index": 2, "values": [4, 5]}
@@ -1078,15 +1074,3 @@
 {"sensor": 2, "index": 540, "values": [1080, 1081]}
 {"sensor": 2, "index": 541, "values": [1082, 1083]}
 {"sensor": 2, "index": 542, "values": [1084, 1085]}
-{"sensor": 2, "index": 543, "values": [1086, 1087]}
-{"sensor": 2, "index": 544, "values": [1088, 1089]}
-{"sensor": 2, "index": 545, "values": [1090, 1091]}
-{"sensor": 2, "index": 546, "values": [1092, 1093]}
-{"sensor": 2, "index": 547, "values": [1094, 1095]}
-{"sensor": 2, "index": 548, "values": [1096, 1097]}
-{"sensor": 2, "index": 549, "values": [1098, 1099]}
-{"sensor": 2, "index": 550, "values": [1100, 1101]}
-{"sensor": 2, "index": 551, "values": [1102, 1103]}
-{"sensor": 2, "index": 552, "values": [1104, 1105]}
-{"sensor": 2, "index": 553, "values": [1106, 1107]}
-{"sensor": 2, "index": 554, "values": [1108, 1109]}

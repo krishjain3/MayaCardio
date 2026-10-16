@@ -25,14 +25,30 @@ CLOUD_API_KEY = os.environ.get("CLOUD_API_KEY", "")
 storage = Storage(CLOUD_DB_PATH, synchronous="NORMAL")
 
 
+def is_production() -> bool:
+    env = os.environ.get("ENVIRONMENT", "").lower()
+    flask_env = os.environ.get("FLASK_ENV", "").lower()
+    return env in ("production", "prod") or flask_env == "production" or os.environ.get("REQUIRE_AUTH", "").lower() in ("true", "1")
+
+
 def check_auth() -> bool:
-    if not CLOUD_API_KEY:
+    api_key = os.environ.get("CLOUD_API_KEY", CLOUD_API_KEY)
+    if is_production():
+        if not api_key:
+            logger.error("Authentication rejected: CLOUD_API_KEY must be configured in production deployments.")
+            return False
+        if api_key == "test-secret-key-change-in-production":
+            logger.error("Authentication rejected: Insecure placeholder CLOUD_API_KEY detected in production deployment.")
+            return False
+
+    if not api_key:
         return True
+
     auth_header = request.headers.get("Authorization", "")
     api_key_header = request.headers.get("X-API-Key", "")
-    if api_key_header == CLOUD_API_KEY:
+    if api_key_header == api_key:
         return True
-    if auth_header.startswith("Bearer ") and auth_header[7:] == CLOUD_API_KEY:
+    if auth_header.startswith("Bearer ") and auth_header[7:].strip() == api_key:
         return True
     return False
 
@@ -110,13 +126,26 @@ def ingest():
             logger.error(f"Integrity conflict: {e}")
             return jsonify({"error": "Integrity conflict", "details": str(e)}), 409
 
-    # 3. If online mode: trigger online processing for completed windows
+    # 3. If online mode: trigger online processing for completed/updated windows
     calculated_windows = []
     if mode == "online" and samples:
-        # Determine affected windows
-        min_win = first_index // 400
-        max_win = synced_up_to // 400
-        for win in range(min_win, max_win + 1):
+        max_idx = storage.get_max_sample_index(session_id)
+        max_known_window = (max_idx // 400) if max_idx >= 0 else 0
+
+        # Affected windows: from preceding window (which may have needed lookahead sample)
+        # up to forward windows affected by 5-second heart rate lookback
+        start_win = max(0, (first_index // 400) - 1)
+        end_win = min(max_known_window, (synced_up_to // 400) + 4)
+
+        windows_to_process = set(range(start_win, end_win + 1))
+
+        # Recompute any previously incomplete online windows for this session
+        incomplete_wins = storage.get_incomplete_windows(session_id, mode="online")
+        for inc_w in incomplete_wins:
+            if inc_w <= max_known_window:
+                windows_to_process.add(inc_w)
+
+        for win in sorted(windows_to_process):
             # Process window using exact same logic
             res = compute_window_result(storage, session_id, win, mode="online")
             storage.save_window_result(res)
@@ -180,5 +209,12 @@ def create_app(db_path: Optional[str] = None):
 
 
 if __name__ == "__main__":
+    if is_production():
+        api_key = os.environ.get("CLOUD_API_KEY", "")
+        if not api_key:
+            raise RuntimeError("FATAL: CLOUD_API_KEY environment variable MUST be set for production deployment!")
+        if api_key == "test-secret-key-change-in-production":
+            raise RuntimeError("FATAL: Insecure default CLOUD_API_KEY cannot be used in production deployment!")
+
     port = int(os.environ.get("PORT", 8000))
     app.run(host="0.0.0.0", port=port)

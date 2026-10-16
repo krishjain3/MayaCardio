@@ -26,7 +26,10 @@ if PROJECT_ROOT not in sys.path:
 from pipeline.service import PipelineService
 from mock.biosignal_mock import MockServer
 from cloud.server import create_app
-from werkzeug.serving import make_server
+try:
+    from werkzeug.serving import make_server
+except ImportError:
+    from wsgiref.simple_server import make_server
 
 
 class ServerThread(threading.Thread):

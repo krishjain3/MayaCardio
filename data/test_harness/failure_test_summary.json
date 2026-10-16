@@ -18,21 +18,21 @@
     "details": "Switched to offline within 2 failed pings, calculated offline windows, caught up 100% of backlog with 0 losses upon reconnection."
   },
   {
-    "test": "Process Kill & Sudden Power Cut Recovery",
+    "test": "Simulated Process Crash (SIGKILL / Memory Drop)",
     "criterion": "Criterion 3",
     "result": "PASSED",
-    "details": "Committed transactions survived crash via SQLite WAL + FULL sync. Database opened cleanly without corruption."
+    "details": "Committed transactions survived crash via SQLite WAL + FULL sync. Note: Genuine physical power cut requires physical board power pull."
   },
   {
     "test": "Ground Truth Ramp Verification",
     "criterion": "Criteria 1 & 2",
     "result": "PASSED",
-    "details": "Export verified: 0 duplicates, 0 value mismatches, 0 silent losses across 1092 samples."
+    "details": "Export verified: 0 duplicates, 0 value mismatches, 0 silent losses across 1076 samples."
   },
   {
     "test": "Ground Truth Signal Verification",
     "criterion": "Criteria 1, 2, 7",
     "result": "PASSED",
-    "details": "Export verified: 0 duplicates, 0 value mismatches, 0 silent losses across 1123 samples."
+    "details": "Export verified: 0 duplicates, 0 value mismatches, 0 silent losses across 1035 samples."
   }
 ]

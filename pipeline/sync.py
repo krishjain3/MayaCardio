@@ -156,6 +156,13 @@ class SyncWorker:
         last_win = max_idx // 400
         current_win = self.local_processed_window.get(session_id, 0)
 
+        # Check and update any previously incomplete offline windows
+        incomplete_wins = self.storage.get_incomplete_windows(session_id, mode="offline")
+        for inc_w in incomplete_wins:
+            if inc_w <= last_win:
+                res = compute_window_result(self.storage, session_id, inc_w, mode="offline")
+                self.storage.save_window_result(res)
+
         while current_win <= last_win:
             res = compute_window_result(self.storage, session_id, current_win, mode="offline")
             self.storage.save_window_result(res)

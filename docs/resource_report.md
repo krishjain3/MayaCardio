@@ -7,16 +7,17 @@
 
 ---
 
-## 1. Measured Benchmark Results
+## 1. Measured Local Smoke Test (Windows x86-64 Host)
 
-The following empirical measurements were recorded during continuous online streaming and processing:
+> [!IMPORTANT]
+> **Measurement Disclosure:** The empirical figures below and in `data/benchmark/resource_measurement.json` were captured during a **10.4-second local validation run on Windows 11 (AMD64 / x86_64)**. This verifies pipeline stability, bounded memory usage, and zero data loss under load. It is **NOT** represented as a completed one-hour ARM64 benchmark. The reproducible procedure to execute the full one-hour measurement on physical ARM64 hardware (Raspberry Pi 4) is provided in [Section 4](#4-reproducible-procedure-for-raspberry-pi-4-1-hour-test).
 
-| Metric | Measured Value | Raspberry Pi 4 Limit | Compliance Status |
+| Metric | Measured Value (10.4s local run) | Raspberry Pi 4 Limit | Compliance Status |
 | :--- | :--- | :--- | :---: |
 | **Peak Memory (RSS)** | **52.29 MB** | 2,048.00 MB (2 GB) | **COMPLIANT (2.6% of budget)** |
 | **Average CPU Usage** | **26.52%** (single thread) | 4 Cores (400% quota) | **COMPLIANT (~6.6% total CPU)** |
-| **Disk Space Written** | **0.64 MB** (10s benchmark) | 16 GB+ MicroSD | **COMPLIANT** |
-| **Network Data Sent** | **1.62 MB** (10s benchmark) | Wi-Fi / Ethernet | **COMPLIANT (~40 KB/s)** |
+| **Disk Space Written** | **0.64 MB** (DB size) | 16 GB+ MicroSD | **COMPLIANT** |
+| **Network Data Sent** | **1.62 MB** | Wi-Fi / Ethernet | **COMPLIANT (~40 KB/s)** |
 | **Ingestion Throughput** | **840 samples / second** | 800 samples / second | **100% Real-Time Drained** |
 
 *Measurement Log Artifact:* `data/benchmark/resource_measurement.json`

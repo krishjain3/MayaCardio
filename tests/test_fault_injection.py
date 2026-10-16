@@ -4,7 +4,10 @@ import tempfile
 import threading
 import time
 import pytest
-from werkzeug.serving import make_server
+try:
+    from werkzeug.serving import make_server
+except ImportError:
+    from wsgiref.simple_server import make_server
 
 from mock.biosignal_mock import MockServer
 from mock.check_ground_truth import check_export

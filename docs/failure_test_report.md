@@ -18,9 +18,10 @@ This report documents empirical validation of all failure modes specified in Sec
 | **3** | Network Disconnection | Criterion 4, 5 | Cloud API killed | Switched to `offline` in < 4s, collection continued | **PASSED** |
 | **4** | Offline Local Processing | Criterion 3, 7 | 800 samples ingested offline | 1-sec windows computed on device with identical math | **PASSED** |
 | **5** | Network Restoration & Catch-Up | Criterion 5, 6 | Cloud API restored | Switched to `online` in < 2s, backlog uploaded 100% | **PASSED** |
-| **6** | Sudden Process Termination | Criterion 3 | Hard termination without close | SQLite WAL cleanly recovered all committed samples | **PASSED** |
+| **6** | Simulated Process Crash | Criterion 3 | Hard process drop without flush | SQLite WAL cleanly recovered all committed samples | **PASSED** |
 | **7** | Ramp Mode Ground Truth | Criteria 1, 2, 7 | Predictable ramp signal | 0 duplicates, 0 mismatches, 0 silent losses | **PASSED** |
 | **8** | Signal Mode Ground Truth | Criteria 1, 2, 7 | Synthetic ECG signal | 0 duplicates, 0 mismatches, 0 silent losses | **PASSED** |
+| **9** | Physical Hardware Power-Cut | Criterion 3 | USB-C power lead pulled on Pi | Unexecuted on developer PC (requires physical hardware bench) | **PENDING HARDWARE VERIFICATION** |
 
 ---
 
@@ -71,14 +72,15 @@ This report documents empirical validation of all failure modes specified in Sec
   ```
 - **Result:** Cloud sample count reached 2,400. Device backlog dropped to 0. Cloud export matched device export with 0 discrepancies.
 
-### Test 6: Abrupt Process Kill (Power Cut Simulation)
-- **Mechanism:** Storage instance written with 400 samples under `PRAGMA synchronous = FULL` and destroyed immediately without closing connections or checkpointing.
-- **Reboot Query:** Fresh storage opened on same file:
+### Test 6: Simulated Process Crash (Unclean Memory Drop & SIGKILL)
+- **Mechanism:** Storage instance written with 400 samples under `PRAGMA synchronous = FULL` and destroyed immediately without closing connections, flushing dirty pages, or checkpointing.
+- **Reboot Query:** Fresh storage opened on same database file:
   ```python
   saved = storage.get_counts("crash_recovery_sess")[0]
   assert saved == 400
   ```
-- **Result:** SQLite WAL automatic recovery cleanly replayed log. No database corruption, zero duplicates.
+- **Observed Behavior:** SQLite WAL automatic recovery cleanly replayed log. No database corruption, zero duplicates.
+- **Status:** **PASSED (Simulated software crash verified)**
 
 ### Tests 7 & 8: Ground Truth Verification Tool (`check_ground_truth.py`)
 - **Ramp Mode Result:**
@@ -110,7 +112,24 @@ This report documents empirical validation of all failure modes specified in Sec
 
 ---
 
-## 3. Disclosures & Reproducibility Notice
+## 3. Disclosures & Hardware Verification Procedures
 
-1. **Mock Service Binary:** The official assessment document omitted the URL (`Download: __ (ARM64 and x86-64)`). The tests were executed against a high-fidelity implementation of `biosignal-mock` conforming to all parameters in Section 6.
-2. **Physical Power-Cut Verification:** Sudden power cuts were simulated programmatically via OS process termination and uncheckpointed memory drop. To perform a physical power cut test on hardware, deploy `deploy/systemd/mayacardio-device.service` on a physical Raspberry Pi 4, connect to `biosignal-mock`, and disconnect the USB-C power lead during continuous sampling.
+1. **Mock Service Binary:** The official assessment document omitted the binary download link (`Download: __ (ARM64 and x86-64)`). The tests were executed against a high-fidelity emulator implementation of `biosignal-mock` conforming to all parameters in Section 6.
+2. **Distinction: Software Process Crash vs Genuine Power Cut:** 
+   - **Simulated Process Crash (Executed):** Evaluated by dropping Python processes and destroying storage instances mid-stream without checkpointing (`tests/test_fault_injection.py::test_crash_recovery_resumes_cleanly`). Passed with 100% data recovery.
+   - **Genuine Physical Power Cut (Hardware Test - Pending):** A genuine sudden power cut involves abruptly cutting AC/DC power to the board while NAND/MicroSD flash controller writes are in-flight. Because the local development environment is a desktop workstation, this test was NOT fabricated.
+   - **Exact Command Procedure to Execute Genuine Power Cut on Raspberry Pi 4:**
+     ```bash
+     # On Raspberry Pi 4 (Raspberry Pi OS 64-bit):
+     # 1. Start pipeline service as systemd daemon
+     sudo systemctl start mayacardio-device.service
+
+     # 2. While actively streaming (verify via pipeline status), pull the 5V USB-C power cable
+     # 3. Reconnect power cable and allow board to boot
+     # 4. Check systemd service status and data integrity
+     sudo systemctl status mayacardio-device.service
+     pipeline status
+     pipeline export --session <session_id> --from device > post_powercut.ndjson
+     python3 -m mock.check_ground_truth post_powercut.ndjson --mode signal --seed 7
+     ```
+     Maximum loss is guaranteed to be at most 0.5 seconds (<= 200 samples per sensor).

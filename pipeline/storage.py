@@ -360,6 +360,21 @@ class Storage:
                 ))
             return results
 
+    def get_incomplete_windows(self, session_id: str, mode: Optional[str] = None) -> List[int]:
+        """Returns sorted list of window indices that are marked incomplete (complete = 0)."""
+        with self.get_connection() as conn:
+            if mode:
+                rows = conn.execute(
+                    "SELECT window FROM results WHERE session_id = ? AND mode = ? AND complete = 0 ORDER BY window ASC",
+                    (session_id, mode)
+                ).fetchall()
+            else:
+                rows = conn.execute(
+                    "SELECT window FROM results WHERE session_id = ? AND complete = 0 ORDER BY window ASC",
+                    (session_id,)
+                ).fetchall()
+            return [r["window"] for r in rows]
+
     def get_samples_in_range(
         self,
         session_id: str,

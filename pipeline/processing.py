@@ -143,8 +143,12 @@ def compute_window_result(
         hr_start = 400 * (window - 4)
         hr_end = 400 * (window + 1) - 1  # 2000 samples
 
-        # Fetch all Sensor 1 samples for the 5-second range PLUS 800 samples lookback and 1 sample lookahead
-        fetch_start = max(0, hr_start - PEAK_HISTORY_SAMPLES)
+        # Fetch all Sensor 1 samples for the 5-second range PLUS lookback and lookahead:
+        # Candidate peaks near hr_start require checking distance from preceding peaks
+        # up to 100 samples earlier, which themselves require 800 samples of history.
+        # We fetch back to max(0, hr_start - 2 * PEAK_HISTORY_SAMPLES) and scan from max(PEAK_HISTORY_SAMPLES, hr_start - PEAK_HISTORY_SAMPLES).
+        fetch_start = max(0, hr_start - 2 * PEAK_HISTORY_SAMPLES)
+        scan_start = max(PEAK_HISTORY_SAMPLES, hr_start - PEAK_HISTORY_SAMPLES)
         fetch_end = hr_end + 1
         s1_hr_range = storage.get_samples_in_range(session_id, 1, fetch_start, fetch_end)
 
@@ -156,9 +160,9 @@ def compute_window_result(
                 break
 
         if not missing_in_5s:
-            # We detect peaks starting from the lookback to ensure peak chaining consistency
-            # Scan from max(800, fetch_start) to hr_end
-            all_peaks, _ = detect_peaks_in_range(s1_hr_range, fetch_start, hr_end)
+            # We detect peaks starting from scan_start so that any peak preceding hr_start
+            # is discovered and properly enforces the 100-sample minimum distance rule.
+            all_peaks, _ = detect_peaks_in_range(s1_hr_range, scan_start, hr_end)
 
             # Filter peaks strictly in the 5-second range [hr_start, hr_end]
             peaks_in_5s = [p for p in all_peaks if hr_start <= p <= hr_end]

@@ -22,7 +22,10 @@ from pipeline.client import SensorClient
 from pipeline.sync import SyncWorker
 from pipeline.processing import compute_window_result
 from cloud.server import create_app
-from werkzeug.serving import make_server
+try:
+    from werkzeug.serving import make_server
+except ImportError:
+    from wsgiref.simple_server import make_server
 
 
 class ServerThread(threading.Thread):
@@ -204,9 +207,9 @@ def run_all_failure_tests():
     print(" -> PASSED")
 
     # -------------------------------------------------------------
-    # Test 4: Abrupt Process Kill & Power Cut WAL Recovery
+    # Test 4: Simulated Process Crash (SIGKILL / Unclean Memory Drop)
     # -------------------------------------------------------------
-    print("\n[Test 4] Process Kill & Sudden Power Cut Recovery...")
+    print("\n[Test 4] Simulated Process Crash (SIGKILL / Unclean Memory Drop Recovery)...")
     db4 = "data/test_harness/t4_crash.db"
     if os.path.exists(db4):
         os.remove(db4)
@@ -215,7 +218,7 @@ def run_all_failure_tests():
     sess4 = "crash_recovery_sess"
     s4.insert_samples_batch(sess4, 1, 0, [[10, 20, 30]] * 200)
     s4.insert_samples_batch(sess4, 2, 0, [[400000, 150000]] * 200)
-    # Simulate sudden crash: destroy object without graceful checkpoint
+    # Simulate sudden crash: destroy object without graceful checkpoint or disconnect
     del s4
 
     # Recover in new storage instance
@@ -229,12 +232,12 @@ def run_all_failure_tests():
     assert saved4_after == 401
 
     results.append({
-        "test": "Process Kill & Sudden Power Cut Recovery",
+        "test": "Simulated Process Crash (SIGKILL / Memory Drop)",
         "criterion": "Criterion 3",
         "result": "PASSED",
-        "details": "Committed transactions survived crash via SQLite WAL + FULL sync. Database opened cleanly without corruption."
+        "details": "Committed transactions survived crash via SQLite WAL + FULL sync. Note: Genuine physical power cut requires physical board power pull."
     })
-    print(" -> PASSED")
+    print(" -> PASSED (Simulated software crash verified; physical power pull requires hardware test bench)")
 
     # -------------------------------------------------------------
     # Test 5: Ground Truth Verification (Ramp Mode)
