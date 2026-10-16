@@ -12,6 +12,13 @@ APP_DIR="${APP_DIR:-/opt/mayacardio}"
 PORT="${PORT:-8000}"
 CLOUD_DB_PATH="${CLOUD_DB_PATH:-$APP_DIR/data/cloud.db}"
 
+if [ "${ENVIRONMENT:-}" = "production" ] || [ "${ENVIRONMENT:-}" = "prod" ]; then
+    if [ -z "${CLOUD_API_KEY:-}" ]; then
+        echo "ERROR: CLOUD_API_KEY environment variable is required in production deployment!" >&2
+        exit 1
+    fi
+fi
+
 echo "[1/4] Ensuring Python and dependencies..."
 python3 -m pip install --upgrade pip
 python3 -m pip install -e .

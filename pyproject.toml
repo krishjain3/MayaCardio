@@ -29,6 +29,9 @@ test = [
 [project.scripts]
 pipeline = "pipeline.cli:main"
 
+[tool.setuptools]
+packages = ["pipeline", "cloud", "mock"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]

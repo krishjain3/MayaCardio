@@ -2,7 +2,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Tests Passing](https://img.shields.io/badge/tests-26%20passed-brightgreen.svg)]()
+[![Tests Passing](https://img.shields.io/badge/tests-33%20passed-brightgreen.svg)]()
 
 > High-reliability dual-sensor biosignal pipeline designed for Raspberry Pi-class ARM64 embedded Linux devices operating in unmonitored hospital environments with intermittent Wi-Fi and power instability.
 
@@ -70,7 +70,7 @@ MayaCardio-Software-Systems-Engineer/
 ├── deploy/systemd/           # Systemd units with 4-core & 2GB RAM limits
 │   ├── mayacardio-device.service
 │   └── mayacardio-cloud.service
-├── tests/                    # 26 automated unit and integration tests
+├── tests/                    # 33 automated unit and integration tests
 ├── docs/                     # Required submission deliverables
 │   ├── design_note.md        # Architecture & power-cut analysis (<= 2 pages)
 │   ├── failure_test_report.md# Empirical failure test results and logs
@@ -96,7 +96,7 @@ MayaCardio-Software-Systems-Engineer/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/MayaCardio/MayaCardio-Software-Systems-Engineer.git
+git clone https://github.com/krishjain3/MayaCardio.git
 cd MayaCardio-Software-Systems-Engineer
 
 # 2. Create and activate virtual environment
@@ -186,16 +186,16 @@ python3 scripts/run_cloud.py --port 8000
 
 ## 7. Running the Automated Test Suite
 
-Execute the complete 26-test pytest suite:
+Execute the complete 33-test pytest suite:
 ```bash
 python3 -m pytest tests/ -v
 ```
-All 26 tests pass with 100% success rate:
+All 33 tests pass with 100% success rate:
 - `tests/test_crc.py` (4 tests): CRC-32 calculation & wire-level slice matching.
 - `tests/test_storage.py` (4 tests): Transactions, idempotency, conflict detection.
-- `tests/test_processing.py` (5 tests): Statistical window formulas, peak detection, 60/90/72 bpm.
+- `tests/test_processing.py` (10 tests): Statistical window formulas, peak detection, 60 bpm, missing data boundaries, 800-sample history boundary, 100-sample boundary suppression, different sensor arrival times.
 - `tests/test_client.py` (3 tests): TCP polling, corrupt CRC rejection, mock restarts.
-- `tests/test_sync.py` (3 tests): Health monitoring, mode transitions, catch-up backlog.
+- `tests/test_sync.py` (5 tests): Health monitoring, mode transitions, catch-up backlog, cloud ingest on different sensor arrival times, production auth rejection.
 - `tests/test_cli.py` (3 tests): Status, export, and results CLI commands.
 - `tests/test_fault_injection.py` (4 tests): Network cuts, crash recovery, ground truth checks.
 
@@ -251,7 +251,7 @@ All five required submission deliverables are complete and available in `docs/`:
 - [x] Runs within Raspberry Pi limits (4 cores, 2 GB RAM; peak RSS 52 MB) (Criterion 8).
 - [x] Required CLI commands implemented: `pipeline status`, `pipeline export`, `pipeline results`.
 - [x] Genuinely free cloud deployment path documented.
-- [x] Complete automated test suite passing (26/26 passed).
+- [x] Complete automated test suite passing (33/33 passed).
 
 ---
 
